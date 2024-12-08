@@ -1,0 +1,9 @@
+C:\Users\скда\source\repos\DataStructuresLab\Lab2\Laboratory_2_List\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.MdMergeInputs.cache
+C:\Users\скда\source\repos\DataStructuresLab\Lab2\Laboratory_2_List\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.cppwinrt_plat.cache
+C:\Users\скда\source\repos\DataStructuresLab\Lab2\Laboratory_2_List\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.cppwinrt_comp.cache
+C:\Users\PC\Desktop\struct lab\Laboratory_2_List\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.MdMergeInputs.cache
+C:\Users\PC\Desktop\struct lab\Laboratory_2_List\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.cppwinrt_plat.cache
+C:\Users\PC\Desktop\struct lab\Laboratory_2_List\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.cppwinrt_comp.cache
+C:\Users\PC\Desktop\struct lab\lab2\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.MdMergeInputs.cache
+C:\Users\PC\Desktop\struct lab\lab2\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.cppwinrt_plat.cache
+C:\Users\PC\Desktop\struct lab\lab2\Laborato.4f47a885\x64\Debug\Laboratory_2_List.vcxproj.cppwinrt_comp.cache
