@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 #include "Stack.h"
 #include "QueueStack.h"
-#include "QueueRingBuffer.h"
-#include "RingBuffer.h"
+#include "QueueCircularBuffer.h"
+#include "CircularBuffer.h"
 
 using namespace std;
 
@@ -11,7 +11,7 @@ void DisplayStackMenu(Stack& stack)
     while (true)
     {
         cout << endl << "------------------------------------" << endl;
-        cout << "Лабораторная работа #2 - стек" << endl;
+        cout << "Лабораторная работа #3 - стек" << endl;
         cout << endl << "Текущий стек: ";
         stack.Print();
         cout << endl;
@@ -62,12 +62,12 @@ void DisplayStackMenu(Stack& stack)
     }
 }
 
-void DisplayRingBufferMenu(RingBuffer& ringBuffer)
+void DisplayRingBufferMenu(CircularBuffer& ringBuffer)
 {
     while (true)
     {
         cout << endl << "------------------------------------" << endl;
-        cout << "Лабораторная работа #2 - кольцевой буфер" << endl;
+        cout << "Лабораторная работа #3 - кольцевой буфер" << endl;
         cout << endl << "Текущий кольцевой буфер: ";
         ringBuffer.Print();
         cout << "Выберите команду:" << endl;
@@ -123,7 +123,7 @@ void DisplayQueueStackMenu(QueueStack& queueStack)
     while (true)
     {
         cout << endl << "------------------------------------" << endl;
-        cout << "Лабораторная работа #2 - очередь на основе стеков" << endl;
+        cout << "Лабораторная работа #3 - очередь на основе стеков" << endl;
         cout << endl << "Current queueStack: ";
         queueStack.Print();
         cout << "Выберите команду:" << endl;
@@ -166,12 +166,12 @@ void DisplayQueueStackMenu(QueueStack& queueStack)
     }
 }
 
-void DisplayQueueRingBufferMenu(QueueRingBuffer& queueRingBuffer)
+void DisplayQueueRingBufferMenu(QueueCircularBuffer& queueRingBuffer)
 {
     while (true)
     {
         cout << endl << "------------------------------------" << endl;
-        cout << "Лабораторная работа #2 - очередь на основе кольцевого буфера" << endl;
+        cout << "Лабораторная работа #3 - очередь на основе кольцевого буфера" << endl;
         cout << endl << "Текущий кольцевой буфер: ";
         queueRingBuffer.Print();
         cout << "Выберите команду:" << endl;
@@ -219,9 +219,9 @@ int main()
     setlocale(LC_ALL, "");
 
     Stack myStack(5);
-    RingBuffer myRingBuffer(5);
+    CircularBuffer myRingBuffer(5);
     QueueStack myQueueStack(5);
-    QueueRingBuffer myQueueRingBuffer(5);
+    QueueCircularBuffer myQueueRingBuffer(5);
 
     while (true)
     {

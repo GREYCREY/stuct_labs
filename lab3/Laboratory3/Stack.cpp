@@ -28,11 +28,16 @@ Stack::~Stack()
 /// <param name="data"></param>
 void Stack::Push(int data)
 {
-    if (_top >= _bufferSize - 1)
-    {
-        throw overflow_error("Стек переполнен, невозможно добавить элемент.");
+    try {
+        if (_top >= _bufferSize - 1)
+        {
+            throw overflow_error("Стек переполнен, невозможно добавить элемент.");
+        }
+        _buffer[++_top] = data;
     }
-    _buffer[++_top] = data;
+    catch (...) {
+
+    }
 }
 
 /// <summary>

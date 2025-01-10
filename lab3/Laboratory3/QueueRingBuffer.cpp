@@ -1,15 +1,15 @@
-#include "QueueRingBuffer.h"
+#include "QueueCircularBuffer.h"
 
 /// <summary>
 /// Конструктор.
 /// </summary>
 /// <param name="size"></param>
-QueueRingBuffer::QueueRingBuffer(int size) : _ringBuffer(size) {}
+QueueCircularBuffer::QueueCircularBuffer(int size) : _circularBuffer(size) {}
 
 /// <summary>
 /// Деструктор.
 /// </summary>
-QueueRingBuffer::~QueueRingBuffer()
+QueueCircularBuffer::~QueueCircularBuffer()
 {
     Delete(); // Освобождение памяти
 }
@@ -18,41 +18,46 @@ QueueRingBuffer::~QueueRingBuffer()
 /// Добавление элемента в очередь.
 /// </summary>
 /// <param name="data"></param>
-void QueueRingBuffer::Enqueue(int data)
+void QueueCircularBuffer::Enqueue(int data)
 {
-    _ringBuffer.Add(data);
+    if (!_circularBuffer.IsFull()) { // Проверяем, не переполнена ли очередь
+        _circularBuffer.Add(data);
+    }
+    else {
+        cout << "Очередь переполнена. Элемент не добавлен: " << data << endl;
+    }
 }
 
 /// <summary>
 /// Извлечение элемента из очереди.
 /// </summary>
 /// <returns></returns>
-int QueueRingBuffer::Dequeue()
+int QueueCircularBuffer::Dequeue()
 {
-    return _ringBuffer.Remove();
+    return _circularBuffer.Remove();
 }
 
 /// <summary>
 /// Проверка, пуста ли очередь.
 /// </summary>
 /// <returns></returns>
-bool QueueRingBuffer::IsEmpty()
+bool QueueCircularBuffer::IsEmpty()
 {
-    return _ringBuffer.IsEmpty();
+    return _circularBuffer.IsEmpty();
 }
 
 /// <summary>
 /// Метод для вывода всех элементов очереди.
 /// </summary>
-void QueueRingBuffer::Print() {
+void QueueCircularBuffer::Print() {
     cout << "Вывод очереди: ";
-    _ringBuffer.Print();
+    _circularBuffer.Print();
 }
 
 /// <summary>
 /// Освобождение памяти для очереди
 /// </summary>
-void QueueRingBuffer::Delete()
+void QueueCircularBuffer::Delete()
 {
-    _ringBuffer.Delete();
+    _circularBuffer.Delete();
 }
