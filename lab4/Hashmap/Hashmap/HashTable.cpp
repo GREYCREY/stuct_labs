@@ -29,6 +29,7 @@ size_t HashTable::GetHash(const std::string& key)
     size_t hashValue = 0;
     for (char c : key)
     {
+        // TODO: вынести магические числа в константы
         hashValue = (hashValue * 1664525) + static_cast<unsigned char>(c) + 1013904223;
     }
 
