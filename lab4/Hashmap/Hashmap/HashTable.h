@@ -4,7 +4,6 @@
 #include <iostream>
 #include "Node.h"
 
-// TODO: Один файл - один класс/структура(исправлено)
 /// <summary>
 /// Класс HashTable представляет хеш-таблицу.
 /// </summary>

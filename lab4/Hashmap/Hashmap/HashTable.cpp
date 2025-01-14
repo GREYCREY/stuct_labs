@@ -26,7 +26,6 @@ HashTable::~HashTable()
 
 size_t HashTable::GetHash(const std::string& key)
 {
-    //TODO:вынести магические числа в константы(сделано)
     // Константы для хеширования
     constexpr size_t MULTIPLIER = 1664525;
     constexpr size_t OFFSET = 1013904223;
