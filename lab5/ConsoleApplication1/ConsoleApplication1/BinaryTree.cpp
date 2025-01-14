@@ -46,7 +46,6 @@ BinaryTreeNode* FindMinimal(BinaryTreeNode* node)
 {
 	if (node == nullptr)
 	{
-
 		return nullptr;
 	}
 
