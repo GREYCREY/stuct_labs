@@ -1,22 +1,21 @@
-#include "HashTable.h"
+﻿#include "HashTable.h"
 #include "Dictionary.h"
+#include "Node.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-// TODO: Полетела кодировка (см. все файлы)
-// TODO: Добавить файл .gitignore и убрать лишние файлы из версионного контроля git
+// TODO: Полетела кодировка (см. все файлы)(исправлено)
+// TODO: Добавить файл .gitignore и убрать лишние файлы из версионного контроля git(добавлено)
 
 /// <summary>
-/// ������� ��� �������� ����� ������ ����� �������������.
-/// ������� ����������� � ������������ ���� ������ ����� � ���������� ������ �� ��� ���,
-/// ���� �� ����� ������� ���������� ��������.
+/// Функция нужна для проверки введенного значения пользователем
 /// </summary>
-/// <returns>��������� ������������� ����� �����.</returns>
+/// <returns>Введеное значение пользователем.</returns>
 int CheckValue()
 {
-    cout << "��� ����: ";
+    cout << "Enter a number: ";
 
     string input;
     while (true)
@@ -33,37 +32,37 @@ int CheckValue()
                 }
                 else
                 {
-                    cout << "������� �������� �������� (���������� �������). ��������� ����: ";
+                    cout << "Invalid input (non-integer characters found). Try again: ";
                 }
             }
             catch (const invalid_argument& e)
             {
-                cout << "������� �������� �������� (�� �����). ��������� ����: ";
+                cout << "Invalid input (not a number). Try again: ";
             }
             catch (const out_of_range& e)
             {
-                cout << "������� ������� ������� ��������. ��������� ����: ";
+                cout << "Input out of range. Try again: ";
             }
         }
         else
         {
             cin.clear();
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            cout << "������ �����. ��������� ����: ";
+            cout << "Input error. Try again: ";
         }
     }
 }
 
 void DictionaryWrapper::PrintState() const
 {
-    cout << "������� ��������� ���-�������:" << endl;
-    for (size_t i = 0; i < _dictionary.GetSize(); ++i)
+    cout << "Buckets and key-value pairs:" << endl;
+    for (size_t i = 0; i < _dictionary->GetSize(); ++i)
     {
         cout << i << ": ";
-        Node* current = _dictionary.GetBucket(i);
+        Node* current = _dictionary->GetBucket(i);
         if (current == nullptr)
         {
-            cout << "�����";
+            cout << "Empty";
         }
         else
         {
@@ -78,10 +77,10 @@ void DictionaryWrapper::PrintState() const
         cout << endl;
     }
 
-    cout << "������� (����� � ��������):" << endl;
-    for (size_t i = 0; i < _dictionary.GetSize(); ++i)
+    cout << "Key-value pairs (flat list):" << endl;
+    for (size_t i = 0; i < _dictionary->GetSize(); ++i)
     {
-        Node* current = _dictionary.GetBucket(i);
+        Node* current = _dictionary->GetBucket(i);
         while (current)
         {
             cout << current->key << ": " << current->value << endl;
@@ -92,7 +91,7 @@ void DictionaryWrapper::PrintState() const
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "English");
     DictionaryWrapper* dict = new DictionaryWrapper();
 
     int choice;
@@ -100,54 +99,54 @@ int main()
 
     do
     {
-        cout << endl << "����" << endl;
-        cout << "1. �������� �������" << endl;
-        cout << "2. ������� �������" << endl;
-        cout << "3. ����� �������" << endl;
-        cout << "4. �������� ������������� ����" << endl;
-        cout << "5. ��������� �� ���������������" << endl;
-        cout << "0. �����" << endl;
+        cout << endl << "Menu" << endl;
+        cout << "1. Add key-value pair" << endl;
+        cout << "2. Remove key-value pair" << endl;
+        cout << "3. Find a value by key" << endl;
+        cout << "4. Add key-value pair (force rehash)" << endl;
+        cout << "5. Auto-populate dictionary" << endl;
+        cout << "0. Exit" << endl;
         dict->PrintState();
 
-        cout << "�������� ��������: ";
+        cout << "Choose an option: ";
 
         choice = CheckValue();
         switch (choice)
         {
         case 1:
-            cout << "������� ����: ";
+            cout << "Enter key: ";
             cin >> key;
-            cout << "������� ��������: ";
+            cout << "Enter value: ";
             cin >> value;
             dict->Add(key, value);
             break;
 
         case 2:
-            cout << "������� ���� ��� ��������: ";
+            cout << "Enter the key to remove: ";
             cin >> key;
             dict->Remove(key);
             break;
 
         case 3:
-            cout << "������� ���� ��� ������: ";
+            cout << "Enter the key to find: ";
             cin >> key;
             value = dict->Find(key);
             if (!value.empty())
-                cout << "������� ��������: " << value << endl;
+                cout << "Value found: " << value << endl;
             else
-                cout << "������� �� ������." << endl;
+                cout << "Value not found." << endl;
             break;
 
         case 4:
-            cout << "������� ������������� ����: ";
+            cout << "Enter key: ";
             cin >> key;
-            cout << "������� ��������: ";
+            cout << "Enter value: ";
             cin >> value;
             dict->Add(key, value);
             break;
 
         case 5:
-            cout << "���������� �� ������ ���������������..." << endl;
+            cout << "Populating the dictionary with test data..." << endl;
             for (int i = 0; i < 20; ++i)
             {
                 dict->Add("Key" + to_string(i), "Value" + to_string(i));
@@ -155,11 +154,11 @@ int main()
             break;
 
         case 0:
-            cout << "�����..." << endl;
+            cout << "Exiting..." << endl;
             break;
 
         default:
-            cout << "�������� �����." << endl;
+            cout << "Invalid choice. Try again." << endl;
         }
     } while (choice != 0);
 

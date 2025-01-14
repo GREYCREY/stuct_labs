@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\Dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\Dictionary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\Dictionary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\HashTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA7906EF-E483-480B-9874-4D5D8CCDD1D3}|Hashmap\\Hashmap.vcxproj|solutionrelative:Hashmap\\HashTable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,12 +39,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Node.h",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Node.h",
+              "RelativeDocumentMoniker": "Hashmap\\Node.h",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Node.h*",
+              "RelativeToolTip": "Hashmap\\Node.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T09:10:37.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Dictionary.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.cpp",
               "RelativeDocumentMoniker": "Hashmap\\Dictionary.cpp",
               "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.cpp",
               "RelativeToolTip": "Hashmap\\Dictionary.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-20T10:03:26.794Z",
               "EditorCaption": ""
@@ -53,33 +70,33 @@
               "RelativeDocumentMoniker": "Hashmap\\Main.cpp",
               "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Main.cpp",
               "RelativeToolTip": "Hashmap\\Main.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-20T10:03:24.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Dictionary.h",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.h",
               "RelativeDocumentMoniker": "Hashmap\\Dictionary.h",
               "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\Dictionary.h",
               "RelativeToolTip": "Hashmap\\Dictionary.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-20T07:20:42.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "HashTable.cpp",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.cpp",
               "RelativeDocumentMoniker": "Hashmap\\HashTable.cpp",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.cpp*",
-              "RelativeToolTip": "Hashmap\\HashTable.cpp*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.cpp",
+              "RelativeToolTip": "Hashmap\\HashTable.cpp",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-17T20:07:53.045Z",
               "EditorCaption": ""
@@ -92,7 +109,7 @@
               "RelativeDocumentMoniker": "Hashmap\\HashTable.h",
               "ToolTip": "C:\\Users\\PC\\Desktop\\struct lab\\stuct_labs\\lab4\\Hashmap\\Hashmap\\HashTable.h",
               "RelativeToolTip": "Hashmap\\HashTable.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-14T07:51:42.665Z",
               "EditorCaption": ""

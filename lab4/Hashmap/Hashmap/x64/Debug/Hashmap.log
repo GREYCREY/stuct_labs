@@ -1,2 +1,7 @@
-﻿  HashTable.cpp
+﻿  Dictionary.cpp
+  HashTable.cpp
+  Main.cpp
+C:\Users\PC\Desktop\struct lab\stuct_labs\lab4\Hashmap\Hashmap\Main.cpp(38,44): warning C4101: e: неиспользованная локальная переменная
+C:\Users\PC\Desktop\struct lab\stuct_labs\lab4\Hashmap\Hashmap\Main.cpp(42,40): warning C4101: e: неиспользованная локальная переменная
+  Создание кода...
   Hashmap.vcxproj -> C:\Users\PC\Desktop\struct lab\stuct_labs\lab4\Hashmap\x64\Debug\Hashmap.exe

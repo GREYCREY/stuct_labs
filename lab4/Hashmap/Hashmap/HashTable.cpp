@@ -1,4 +1,4 @@
-﻿#include "HashTable.h"
+#include "HashTable.h"
 #include <cstring>
 
 HashTable::HashTable(size_t initialSize, double loadFactor)
@@ -26,15 +26,20 @@ HashTable::~HashTable()
 
 size_t HashTable::GetHash(const std::string& key)
 {
+    //TODO:вынести магические числа в константы(сделано)
+    // Константы для хеширования
+    constexpr size_t MULTIPLIER = 1664525;
+    constexpr size_t OFFSET = 1013904223;
+
     size_t hashValue = 0;
     for (char c : key)
     {
-        // TODO: вынести магические числа в константы
-        hashValue = (hashValue * 1664525) + static_cast<unsigned char>(c) + 1013904223;
+        hashValue = (hashValue * MULTIPLIER) + static_cast<unsigned char>(c) + OFFSET;
     }
 
     return hashValue;
 }
+
 
 size_t HashTable::GetIndex(const std::string& key) const
 {
