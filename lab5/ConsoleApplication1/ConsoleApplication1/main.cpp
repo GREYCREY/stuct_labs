@@ -9,7 +9,7 @@
 #include "Treap.h"
 using namespace std;
 
-// TODO: не исправлен .gitignore
+// TODO: не исправлен .gitignore(исправлено)
 
 /// <summary>
 /// Валидация ввода числа.
